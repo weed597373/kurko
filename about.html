@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <title>About Me</title>
+  <style>
+    /* 通用樣式 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #333333; /* 設定深灰背景色 */
+      font-family: Arial, sans-serif;
+      color: #FFFFFF; /* 白色字體 */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh; /* 全螢幕高度 */
+    }
+
+    .container {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6); /* 半透明黑色背景 */
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 陰影效果 */
+      width: 100%;
+      max-width: 600px; /* 最大寬度 */
+      margin: 20px; /* 外邊距 */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .links {
+      margin-top: 20px;
+    }
+
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #FFFFFF;
+      background-color: #555555;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #888888; /* 滑鼠懸停效果 */
+    }
+
+    /* 去掉聯絡方式連結的邊框和背景 */
+    .footer a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 0;
+      text-decoration: none;
+      color: #FFFFFF;
+      background-color: transparent; /* 無背景色 */
+      border: none; /* 去除邊框 */
+    }
+
+    .footer a:hover {
+      background-color: transparent; /* 滑鼠懸停不顯示背景 */
+    }
+
+    /* 中間新增的文字區域 */
+    .about-text {
+      margin-top: 30px;
+      font-size: 1.2em;
+      line-height: 1.6;
+      max-width: 90%; /* 限制文字區域的寬度 */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>關於我</h1>
+    <div class="about-text">
+    <p>大家好，我叫林喬森，來自台灣。我目前是一名資訊工程領域的學生，對程式設計和數位科技充滿熱情</p>
+    <p>我從小便對電腦充滿好奇，經常拆解和組裝各種設備，也因此開始接觸到程式語言。我尤其喜歡挑戰自己學習新的技術，並且希望將來能在軟體開發或人工智慧領域有所貢獻</p>
+    </div>
+    <div class="links">
+      <a href="main menu.html">返回首頁</a>
+      <a href="portfolio.html">作品集</a>
+    </div>
+    <div class="footer">
+      <h2>FF</h2>
+      <a href="contact.html">聯絡方式</a>
+      <h4>&copy;版權所有</h4>
+    </div>
+  </div>
+</body>
+</html>

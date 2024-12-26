@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <title>main menu</title>
+  <style>
+    /* 通用樣式 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #333333; /* 設定深灰背景色 */
+      font-family: Arial, sans-serif;
+      color: #FFFFFF; /* 白色字體 */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh; /* 全螢幕高度 */
+      position: relative;
+    }
+
+    .container {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6); /* 半透明黑色背景 */
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 陰影效果 */
+      position: absolute;
+      top: 50%; /* 垂直居中 */
+      transform: translateY(-50%); /* 精確居中 */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .links {
+      margin-top: 20px;
+    }
+
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #FFFFFF;
+      background-color: #555555;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #888888; /* 滑鼠懸停效果 */
+    }
+
+    /* 底部區域 */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.8); /* 半透明黑色背景 */
+      width: 100%;
+      position: absolute;
+      bottom: 0; /* 固定底部 */
+    }
+
+    .footer h2 {
+      font-size: 1.5em;
+    }
+
+    .footer h4 {
+      font-size: 1em;
+    }
+
+    /* 修改聯絡方式連結樣式 */
+    .footer a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 0;
+      text-decoration: none;
+      color: #FFFFFF;
+      background-color: transparent; /* 無背景色 */
+      border: none; /* 去除邊框 */
+    }
+
+    .footer a:hover {
+      background-color: transparent; /* 滑鼠懸停不顯示背景 */
+    }
+  </style>
+</head>
+<body>
+  <!-- 圖片保持原位置 -->
+  <img src="image/kuroko.jpg" width="850" height="620" alt=""/>
+
+  <div class="container">
+    <h1>歡迎來到我的作品集網站</h1>
+    <div class="links">
+      <a href="portfolio.html">作品集</a>
+      <a href="about.html">關於我</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>FF</h2>
+    <a href="contact.html">聯絡方式</a>
+    <h4>&copy;版權所有</h4>
+  </div>
+</body>
+</html>
